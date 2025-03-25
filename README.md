@@ -4,6 +4,7 @@ This .ino file shows the basic operation of how to use the ads7138 when using an
 For this project i used the Arduino Mega and Adafruit_I2CDevice library (can be installed directly from arduino)
 
 There are 2 functions:
+
 1.
 void I2C_SendData(uint8_t device_address, uint8_t byte1, uint8_t byte2, uint8_t byte3) //Send one byte at a time
 device_address -> the device address 
